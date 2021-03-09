@@ -1,7 +1,7 @@
 # How to use!
 This is a api where you can make your requests in url, and it will return a array with 10 index, every one of these index with a different image src.
 
-- First you have to create a google key, if you don t know how to do it, i recommend you read this doc: https://developers.google.com/maps/documentation/maps-static/get-api-key
+- First you have to get your google key, if you don t know how to do it, i recommend you read this doc: https://developers.google.com/maps/documentation/maps-static/get-api-key
 - After doing it, you have to create a .env file, and put your key on it, like this:
 ![image](https://www.mediafire.com/convkey/8439/anq0ay8app8ysjzag.jpg)
 
