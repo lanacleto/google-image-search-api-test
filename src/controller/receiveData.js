@@ -3,7 +3,7 @@ const dotenv = require('dotenv').config()
 const { google } = require("googleapis")
 const customSearch = google.customsearch('v1')
 
-const removeSpaces = str => str.replace(/\s/g, '+');
+const removeSpaces = str => str.replace(/\s/g, '+')
 
 exports.receiveData = async function(req, res) {
   const value = removeSpaces(req.query.search)
